@@ -1,0 +1,73 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-decoration: overline;
+    color: rgb(10, 7, 6);
+}
+
+p {
+    font-size: medium;
+    text-align: left;
+}
+
+#HomeBackground {
+    background-color: rgb(155, 61, 18);
+}
+
+form {
+    font-weight: bold;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+caption {
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+    color: black;
+}
+
+table {
+    width: 15%;
+}
+
+td {
+    text-align: left;
+}
+
+
+#header {
+    background-color: white,
+}
+
+.container-fluid {
+    background-color: bisque
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Vinny's Italian Bistro </title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link href="restaurantstyle.css"
+rel="stylesheet"
+type="text/css" />
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+        <style>
+            form {
+                text-align:left;
+            }
+
+            body {
+                background-color: bisque
+            }
+        </style>
+    </head>
+    <body>
+        <!-- header -->
+        <div>
+        <h1> Vinny's Italian Bistro </h1>
+        <hr>
+        <ul class="nav nav-pills">
+            <li> <a href="home.html"><span class="glyphicon glyphicon-home"></span></a> </li>
+            <li> <a href="menu.html">Menu</a> </li>
+            <li class="active"> <a href="contact.html">Contact Us</a> </li>
+        </ul>
+        <hr> 
+        </div> <br/>
+        <form action="details" method="post">
+        Name: <input type="text" name="name"> <br/> <br/>
+        Email: <input type="text" name="email"> <br/> <br/>
+        Phone: <input type="text" name="phone"> <br/> <br/>
+        : 
+        <select name="reason">
+            <option value="Catering">Delivery</option>
+            <option value="Party">Cooking Lessons</option>
+            <option value="Feedback">Feedback</option>
+            
+        </select> <br/> <br/>
+        Additional Information: 
+        <textarea name="additionalInfo">
+        </textarea> <br/> <br/>
+        Have you been here before?
+        <input type="radio" name="answer" value="Yes" checked/> <span style="font-weight:normal">Yes</span>
+        <input type="radio" name="answer" value="No" /> <span style="font-weight:normal">No</span>
+        <br/> <br/>
+        Best days to contact you:
+        <input type="checkbox" name="checked" value="M" /> <span style="font-weight:normal">M</span>
+        <input type="checkbox" name="checked" value="Tu" /> <span style="font-weight:normal">Tu</span>
+        <input type="checkbox" name="checked" value="W" /> <span style="font-weight:normal">W</span>
+        <input type="checkbox" name="checked" value="Th" /> <span style="font-weight:normal">Th</span>
+        <input type="checkbox" name="checked" value="F" /> <span style="font-weight:normal">F</span>
+        <br/> <br/>
+        <input type="submit" value="Send Request">
+        </form>
+        <br/> 
+        <!-- footer -->
+        <div>
+        <hr>
+        4223 Queens Blvd, Queens, NY, NY
+        <br/> <br/>
+        212-555-5555
+        <hr>
+        </div>
+    </body>
+</html>
